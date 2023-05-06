@@ -29,10 +29,10 @@ def gitUserConfig():
 
         with open(path, 'w') as configfile:
             config.write(configfile)
+            
     except Exception as e:
         print(e)
         sys.exit()
 
 if __name__ == "__main__":
     gitUserConfig()
-
